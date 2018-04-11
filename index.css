@@ -1,0 +1,645 @@
+    /*reset 重置*/
+    
+    body,
+    ul,
+    ol,
+    p,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    dl,
+    dd,
+    form,
+    input,
+    textarea,
+    td,
+    th,
+    button,
+    strong,
+    em,
+    select,
+    video,
+    canvas {
+    	margin: 0;
+    	padding: 0;
+    }
+    
+    li {
+    	list-style: none;
+    	vertical-align: top;
+    }
+    
+    table {
+    	border-collapse: collapse;
+    }
+    
+    textarea {
+    	resize: none;
+    	overflow: auto;
+    }
+    
+    img {
+    	border: none;
+    	vertical-align: middle;
+    }
+    
+    em {
+    	font-style: normal;
+    }
+    
+    a {
+    	text-decoration: none;
+    }
+    
+    a,
+    input {
+    	-webkit-appearance: none;
+    	/*屏蔽阴影*/
+    	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    	/*ios android去除自带阴影的样式*/
+    }
+    
+    a,
+    img {
+    	/* 禁止长按链接与图片弹出菜单 */
+    	-webkit-touch-callout: none;
+    }
+    
+    html,
+    body {
+    	/* 禁止选中文本(如无文本选中需求,此为必选项) */
+    	-webkit-user-select: none;
+    	user-select: none;
+    	margin: 0;
+    	width: 100%;
+    	height: 100%;
+    	font-family: arial;
+    	text-align: center;
+    }
+    /*public*/
+    
+    html {
+    	font-size: 20px;
+    }
+    
+    @media only screen and (min-width: 401px) {
+    	html {
+    		font-size: 25px !important;
+    	}
+    }
+    
+    @media only screen and (min-width: 428px) {
+    	html {
+    		font-size: 26.75px !important;
+    	}
+    }
+    
+    @media only screen and (min-width: 481px) {
+    	html {
+    		font-size: 30px !important;
+    	}
+    }
+    
+    @media only screen and (min-width: 569px) {
+    	html {
+    		font-size: 35px !important;
+    	}
+    }
+    
+    @media only screen and (min-width: 641px) {
+    	html {
+    		font-size: 40px !important;
+    	}
+    }
+    
+    body {
+    	font-family: "Helvetica Neue", Helvetica, "STHeiTi", sans-serif;
+    	overflow-x: hidden;
+    	overflow-y: auto;
+    	font-size: 0.7rem;
+    	color: white;
+    }
+    
+    .clear {
+    	zoom: 1;
+    }
+    
+    .clear:after {
+    	content: '';
+    	display: block;
+    	clear: both;
+    }
+    
+    .fl {
+    	float: left;
+    }
+    
+    .fr {
+    	float: right;
+    }
+    .partTitle{
+    	margin-top: 0.5rem;
+    }
+/*页面*/
+	.item{
+		background: url(images/bg.png) repeat;
+		background-size: 100% 100%;
+	}
+    .item1,.item2,.item3,.item4,.item5,.item6,.item7,.item8,.item9,.item10,.item11,.item12,.item13,.item14,.item15,.item16{
+    	background-color: #0067A6;
+    	
+    }
+    /*.item2 {
+    	background-color: #0067A6;
+    }    
+    .item3 {
+    	background-color: #0067A6;
+    }
+    
+    .item4 {
+    	background-color: #0067A6;
+    }
+    
+    .item5 {
+    	background-color: #0067A6;
+    }
+    
+    .item6 {
+    	background-color: #0067A6;
+    }
+    
+    .item7 {
+    	background-color: #0067A6;
+    }
+    
+    .item8 {
+    	background-color: #0067A6;
+    }
+    
+    .item9 {
+    	background-color: #0067A6;
+    }
+    .item10 {
+    	background-color: #0067A6;
+    }
+    .item11 {
+    	background-color: #0067A6;
+    }
+    .item12 {
+    	background-color: #0067A6;
+    }
+    .item12 {
+    	background-color: #0067A6;
+    }
+    .item12 {
+    	background-color: #0067A6;
+    }*/
+
+    /*第一页*/
+	.item1{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+    .item1 .partborder{
+    	width: 90%;
+    	height: 90%;
+    	border: 10px solid white;  	
+    }
+    
+    .item1 .part1Img {
+    	justify-content: center;
+    }     
+    .item1 .part1Img img {
+    	width: 80%;
+    	height: 100%;
+    }    
+    .item1 .part1Title {
+		margin-top: 10%;
+    }    
+    .item1 .part1Title h1{
+    	font-size: 1rem;
+    	font-weight: normal;
+    }     
+      
+    .item1 .part1bottom{
+		position: absolute;
+    	text-align: center;
+    	width: 90%;
+    	bottom: 10%;
+    }      
+
+    /*第二页*/
+	.item2{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+    .item2 .partborder{
+    	width: 90%;
+    	height: 90%;
+    	border: 10px solid white; 
+    }   
+    
+    .item2 .profile {
+    	font-size: 0.6rem;
+		margin-top: 5%;
+	    text-align: left;
+	    width: 90%;
+    }    
+    .item2 .profileTitle {
+		font-size: 1.2rem;
+    }     
+    .item2 .profile {
+    	font-size: 0.7rem;
+		margin-top: 5%;
+	    text-align: left;
+	    width: 90%;
+	    padding: 0 1rem;
+    }     
+    .item2 .imgs{
+    	width: 100%;
+    	height: 5.5rem;
+		position: relative;
+		margin-top: 1rem;
+    }      
+    .item2 .imgs .imgbox{
+    	width: 5rem;
+    	height: 5rem;
+		background-color: white;
+		border: 1px solid white;
+		position: absolute;
+    }    
+    .item2 .imgs .imgbox1{
+    	left: 10%;
+    }   
+    .item2 .imgs .imgbox2{
+    	right: 10%;
+    }    
+    .item2 .imgs .imgbox3{
+    	left: 10%;
+    }   
+    .item2 .imgs .imgbox4{
+    	right: 10%;
+    } 
+    .item2 .imgs .imgbox span{
+    	background-color: #0b8aee;
+    	display: block;
+    }       
+    .item2 .imgs .imgbox img{
+    	width: 4.5rem;
+    	height: 4rem;
+    }   
+   
+    /*第三页*/
+	.item3{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+    .item3 .partborder{
+    	width: 90%;
+    	height: 90%;
+    	border: 10px solid white; 
+    }    
+    .item3 .jobTitle{
+    	margin-top: 1rem;
+    }
+    .item3 .jobBox{
+    	margin-top: 1rem;
+    }
+    .item3 .jobBox div{
+    	margin-bottom: 0.3rem;
+    }
+   	
+
+    /*第四页*/
+	.item4{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+    .item4 .partborder{
+    	width: 90%;
+    	height: 90%;
+    	border: 10px solid white; 
+    }    
+   	.item4 .jobDes{
+   		text-align: left;
+   		padding: 0 0.5rem;
+   		margin: 0.5rem 0;
+   	}   
+   	.item4 .jobDes p{
+	    text-indent: -0.5rem;
+	    padding-left: 0.5rem;
+	    font-size: 0.5rem;
+	    line-height: 0.8rem;
+   	}
+   	.item4 .jobDes h3{
+	    text-align: center;
+	    margin-bottom: 0.3rem;
+   	}    	
+    /*第五页*/
+	.item5{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+    .item5 .partborder{
+    	width: 90%;
+    	height: 90%;
+    	border: 10px solid white; 
+    }    
+   	.item5 .jobDes{
+   		text-align: left;
+   		padding: 0 0.5rem;
+   		margin: 0.5rem 0;
+   	}   
+   	.item5 .jobDes p{
+	    text-indent: -0.5rem;
+	    padding-left: 0.5rem;
+	    font-size: 0.5rem;
+	    line-height: 0.8rem;
+   	}
+   	.item5 .jobDes h3{
+	    text-align: center;
+	    margin-bottom: 0.3rem;
+   	}  	
+    /*第六页*/
+	.item6{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+    .item6 .partborder{
+    	width: 90%;
+    	height: 90%;
+    	border: 10px solid white; 
+    }    
+   	.item6 .jobDes{
+   		text-align: left;
+   		padding: 0 0.5rem;
+   		margin: 0.5rem 0;
+   	}   
+   	.item6 .jobDes p{
+	    text-indent: -0.5rem;
+	    padding-left: 0.5rem;
+	    font-size: 0.5rem;
+	    line-height: 0.8rem;
+   	}
+   	.item6 .jobDes h3{
+	    text-align: center;
+	    margin-bottom: 0.3rem;
+   	}  	
+    /*第七页*/
+	.item7{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+    .item7 .partborder{
+    	width: 90%;
+    	height: 90%;
+    	border: 10px solid white; 
+    }    
+   	.item7 .jobDes{
+   		text-align: left;
+   		padding: 0 0.5rem;
+   		margin: 0.5rem 0;
+   	}   
+   	.item7 .jobDes p{
+	    text-indent: -0.5rem;
+	    padding-left: 0.5rem;
+	    font-size: 0.5rem;
+	    line-height: 0.8rem;
+   	}
+   	.item7 .jobDes h3{
+	    text-align: center;
+	    margin-bottom: 0.3rem;
+   	}   	
+    /*第八页*/
+	.item8{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+    .item8 .partborder{
+    	width: 90%;
+    	height: 90%;
+    	border: 10px solid white; 
+    }    
+   	.item8 .jobDes{
+   		text-align: left;
+   		padding: 0 0.5rem;
+   		margin: 0.5rem 0;
+   	}   
+   	.item8 .jobDes p{
+	    text-indent: -0.5rem;
+	    padding-left: 0.5rem;
+	    font-size: 0.4rem;
+	    line-height: 0.7rem;
+   	}
+   	.item8 .jobDes h3{
+	    text-align: center;
+	    margin-bottom: 0.3rem;
+   	}    	
+    /*第九页*/
+	.item9{
+	  display: flex;
+	  flex-direction: column;
+	  justify-content: space-between;
+	  align-items: center;
+	} 
+	.item9 .lastImg img{
+		width: 100%;
+		margin-top: 2rem;
+	} 
+	.item9 .lastBottom{
+		width: 100%;
+		height: 5rem;
+	}
+  	
+    /*第十页*/
+	.item10{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+    .item10 .partborder{
+    	width: 90%;
+    	height: 90%;
+    	border: 10px solid white; 
+    }    
+   	.item10 .jobDes{
+   		text-align: left;
+   		padding: 0 0.5rem;
+   		margin: 0.5rem 0;
+   	}   
+   	.item10 .jobDes p{
+	    text-indent: -0.5rem;
+	    padding-left: 0.5rem;
+	    font-size: 0.4rem;
+	    line-height: 0.7rem;
+   	}
+   	.item10 .jobDes h3{
+	    text-align: center;
+	    margin-bottom: 0.3rem;
+   	}  
+    /*第十一页*/
+	.item11{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+    .item11 .partborder{
+    	width: 90%;
+    	height: 90%;
+    	border: 10px solid white; 
+    }    
+   	.item11 .jobDes{
+   		text-align: left;
+   		padding: 0 0.5rem;
+   		margin: 0.5rem 0;
+   	}   
+   	.item11 .jobDes p{
+	    text-indent: -0.5rem;
+	    padding-left: 0.5rem;
+	    font-size: 0.4rem;
+	    line-height: 0.7rem;
+   	}
+   	.item11 .jobDes h3{
+	    text-align: center;
+	    margin-bottom: 0.3rem;
+   	} 
+    /*第十二页*/
+	.item12{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+    .item12 .partborder{
+    	width: 90%;
+    	height: 90%;
+    	border: 10px solid white; 
+    }    
+   	.item12 .jobDes{
+   		text-align: left;
+   		padding: 0 0.5rem;
+   		margin: 0.5rem 0;
+   	}   
+   	.item12 .jobDes p{
+	    text-indent: -0.5rem;
+	    padding-left: 0.5rem;
+	    font-size: 0.4rem;
+	    line-height: 0.7rem;
+   	}
+   	.item12 .jobDes h3{
+	    text-align: center;
+	    margin-bottom: 0.3rem;
+   	}  
+    /*第13页*/
+	.item13{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+    .item13 .partborder{
+    	width: 90%;
+    	height: 90%;
+    	border: 10px solid white; 
+    }    
+   	.item13 .jobDes{
+   		text-align: left;
+   		padding: 0 0.5rem;
+   		margin: 0.5rem 0;
+   	}   
+   	.item13 .jobDes p{
+	    text-indent: -0.5rem;
+	    padding-left: 0.5rem;
+	    font-size: 0.4rem;
+	    line-height: 0.7rem;
+   	}
+   	.item13 .jobDes h3{
+	    text-align: center;
+	    margin-bottom: 0.3rem;
+   	}
+    /*第14页*/
+	.item14{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+    .item14 .partborder{
+    	width: 90%;
+    	height: 90%;
+    	border: 10px solid white; 
+    }    
+   	.item14 .jobDes{
+   		text-align: left;
+   		padding: 0 0.5rem;
+   		margin: 0.5rem 0;
+   	}   
+   	.item14 .jobDes p{
+	    text-indent: -0.5rem;
+	    padding-left: 0.5rem;
+	    font-size: 0.4rem;
+	    line-height: 0.7rem;
+   	}
+   	.item14 .jobDes h3{
+	    text-align: center;
+	    margin-bottom: 0.3rem;
+   	}
+    /*第15页*/
+	.item15{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+    .item15 .partborder{
+    	width: 90%;
+    	height: 90%;
+    	border: 10px solid white; 
+    }    
+   	.item15 .jobDes{
+   		text-align: left;
+   		padding: 0 0.5rem;
+   		margin: 0.5rem 0;
+   	}   
+   	.item15 .jobDes p{
+	    text-indent: -0.5rem;
+	    padding-left: 0.5rem;
+	    font-size: 0.4rem;
+	    line-height: 0.7rem;
+   	}
+   	.item15 .jobDes h3{
+	    text-align: center;
+	    margin-bottom: 0.3rem;
+   	}
+    /*第16页*/
+	.item16{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+    .item16 .partborder{
+    	width: 90%;
+    	height: 90%;
+    	border: 10px solid white; 
+    }    
+   	.item16 .jobDes{
+   		text-align: left;
+   		padding: 0 0.5rem;
+   		margin: 0.5rem 0;
+   	}   
+   	.item16 .jobDes p{
+	    text-indent: -0.5rem;
+	    padding-left: 0.5rem;
+	    font-size: 0.4rem;
+	    line-height: 0.7rem;
+   	}
+   	.item16 .jobDes h3{
+	    text-align: center;
+	    margin-bottom: 0.3rem;
+   	}
