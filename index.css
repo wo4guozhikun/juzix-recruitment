@@ -147,55 +147,10 @@
 		background: url(images/bg.png) repeat;
 		background-size: 100% 100%;
 	}
-    .item1,.item2,.item3,.item4,.item5,.item6,.item7,.item8,.item9,.item10,.item11,.item12,.item13,.item14,.item15,.item16{
+    .item1,.item2,.item3,.item4,.item5,.item6,.item7,.item8,.item9,.item10,.item11,.item12,.item13,.item14,.item15,.item16,.item17,.item18{
     	background-color: #0067A6;
     	
     }
-    /*.item2 {
-    	background-color: #0067A6;
-    }    
-    .item3 {
-    	background-color: #0067A6;
-    }
-    
-    .item4 {
-    	background-color: #0067A6;
-    }
-    
-    .item5 {
-    	background-color: #0067A6;
-    }
-    
-    .item6 {
-    	background-color: #0067A6;
-    }
-    
-    .item7 {
-    	background-color: #0067A6;
-    }
-    
-    .item8 {
-    	background-color: #0067A6;
-    }
-    
-    .item9 {
-    	background-color: #0067A6;
-    }
-    .item10 {
-    	background-color: #0067A6;
-    }
-    .item11 {
-    	background-color: #0067A6;
-    }
-    .item12 {
-    	background-color: #0067A6;
-    }
-    .item12 {
-    	background-color: #0067A6;
-    }
-    .item12 {
-    	background-color: #0067A6;
-    }*/
 
     /*第一页*/
 	.item1{
@@ -335,7 +290,7 @@
 	    text-indent: -0.5rem;
 	    padding-left: 0.5rem;
 	    font-size: 0.5rem;
-	    line-height: 0.8rem;
+	    line-height: 1rem;
    	}
    	.item4 .jobDes h3{
 	    text-align: center;
@@ -413,7 +368,7 @@
 	    text-indent: -0.5rem;
 	    padding-left: 0.5rem;
 	    font-size: 0.5rem;
-	    line-height: 0.8rem;
+	    line-height: 1rem;
    	}
    	.item7 .jobDes h3{
 	    text-align: center;
@@ -438,7 +393,7 @@
    	.item8 .jobDes p{
 	    text-indent: -0.5rem;
 	    padding-left: 0.5rem;
-	    font-size: 0.4rem;
+	    font-size: 0.5rem;
 	    line-height: 0.7rem;
    	}
    	.item8 .jobDes h3{
@@ -455,6 +410,9 @@
 	.item9 .lastImg img{
 		width: 100%;
 		margin-top: 2rem;
+	} 
+	.item9 .join{
+		font-size: 1.5rem;
 	} 
 	.item9 .lastBottom{
 		width: 100%;
@@ -480,7 +438,7 @@
    	.item10 .jobDes p{
 	    text-indent: -0.5rem;
 	    padding-left: 0.5rem;
-	    font-size: 0.4rem;
+	    font-size: 0.5rem;
 	    line-height: 0.7rem;
    	}
    	.item10 .jobDes h3{
@@ -506,7 +464,7 @@
    	.item11 .jobDes p{
 	    text-indent: -0.5rem;
 	    padding-left: 0.5rem;
-	    font-size: 0.4rem;
+	    font-size: 0.5rem;
 	    line-height: 0.7rem;
    	}
    	.item11 .jobDes h3{
@@ -532,7 +490,7 @@
    	.item12 .jobDes p{
 	    text-indent: -0.5rem;
 	    padding-left: 0.5rem;
-	    font-size: 0.4rem;
+	    font-size: 0.5rem;
 	    line-height: 0.7rem;
    	}
    	.item12 .jobDes h3{
@@ -558,7 +516,7 @@
    	.item13 .jobDes p{
 	    text-indent: -0.5rem;
 	    padding-left: 0.5rem;
-	    font-size: 0.4rem;
+	    font-size: 0.5rem;
 	    line-height: 0.7rem;
    	}
    	.item13 .jobDes h3{
@@ -584,8 +542,8 @@
    	.item14 .jobDes p{
 	    text-indent: -0.5rem;
 	    padding-left: 0.5rem;
-	    font-size: 0.4rem;
-	    line-height: 0.7rem;
+	    font-size: 0.5rem;
+	    line-height: 1rem;
    	}
    	.item14 .jobDes h3{
 	    text-align: center;
@@ -610,8 +568,8 @@
    	.item15 .jobDes p{
 	    text-indent: -0.5rem;
 	    padding-left: 0.5rem;
-	    font-size: 0.4rem;
-	    line-height: 0.7rem;
+	    font-size: 0.5rem;
+	    line-height: 1.5rem;
    	}
    	.item15 .jobDes h3{
 	    text-align: center;
@@ -636,10 +594,62 @@
    	.item16 .jobDes p{
 	    text-indent: -0.5rem;
 	    padding-left: 0.5rem;
-	    font-size: 0.4rem;
-	    line-height: 0.7rem;
+	    font-size: 0.5rem;
+	    line-height: 1rem;
    	}
    	.item16 .jobDes h3{
+	    text-align: center;
+	    margin-bottom: 0.3rem;
+   	}
+    /*第17页*/
+	.item17{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+    .item17 .partborder{
+    	width: 90%;
+    	height: 90%;
+    	border: 10px solid white; 
+    }    
+   	.item17 .jobDes{
+   		text-align: left;
+   		padding: 0 0.5rem;
+   		margin: 0.5rem 0;
+   	}   
+   	.item17 .jobDes p{
+	    text-indent: -0.5rem;
+	    padding-left: 0.5rem;
+	    font-size: 0.5rem;
+	    line-height: 1.2rem;
+   	}
+   	.item17 .jobDes h3{
+	    text-align: center;
+	    margin-bottom: 0.3rem;
+   	}
+    /*第18页*/
+	.item18{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+    .item18 .partborder{
+    	width: 90%;
+    	height: 90%;
+    	border: 10px solid white; 
+    }    
+   	.item18 .jobDes{
+   		text-align: left;
+   		padding: 0 0.5rem;
+   		margin: 0.5rem 0;
+   	}   
+   	.item18 .jobDes p{
+	    text-indent: -0.5rem;
+	    padding-left: 0.5rem;
+	    font-size: 0.5rem;
+	    line-height: 1.2rem;
+   	}
+   	.item18 .jobDes h3{
 	    text-align: center;
 	    margin-bottom: 0.3rem;
    	}
